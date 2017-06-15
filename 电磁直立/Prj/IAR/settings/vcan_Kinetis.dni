@@ -1,0 +1,57 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-1457044880
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+CStepIntDis=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[Trace1]
+Enabled=0
+ShowSource=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\NEW_电感 - 官方方案 - 副本}.488.5" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\NEW_3.26}.398.5" 0 0 1 "" 0 "" 0
+Bp2=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\NEW_3.26}.442.9" 0 0 1 "" 0 "" 0
+Bp3=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\NEW_7.3修改了一些}.51.1" 0 0 1 "" 0 "" 0
+Count=4
+[Aliases]
+A0=_ "D:\ESAT\freescale\begin\NEW_3.26 - 换电感 - 副本\App\main.c" ""
+A1=_ "D:\ESAT\freescale\begin\NEW_5.2校赛待用\Chip\src\MK60_SysTick.c" ""
+A2=_ "D:\ESAT\freescale\begin\NEW_5.2疑问\Chip\src\MK60_SysTick.c" ""
+A3=_ "D:\ESAT\freescale\begin\NEW_5.2疑问\Chip\src\MK60_adc.c" ""
+Count=4
+SuppressDialog=0
